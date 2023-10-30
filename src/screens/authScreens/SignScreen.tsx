@@ -6,7 +6,7 @@ import { colors, parameters, title } from '../../global/styles';
 import * as Animatable from 'react-native-animatable';
 import { Button, SocialIcon } from 'react-native-elements';
 
-export default function SignScreen() {
+export default function SignScreen({navigation}) {
   const [password, setPassword] = useState('');
   const [isPasswordFocused, setIsPasswordFocused] = useState(false);
 
@@ -66,6 +66,7 @@ export default function SignScreen() {
           title="Connexion"
           buttonStyle={parameters.styleButton}
           titleStyle={parameters.buttonTitle}
+          onPress={()=>{navigation.navigate('Accuei')}}
         />
       </View>
 

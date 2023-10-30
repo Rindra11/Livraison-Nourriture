@@ -58,11 +58,11 @@ export default function SignUp({ navigation }) {
         </View>
 
         <View style={{ marginHorizontal: 20, marginTop: 30 }}>
-          <Button
-            title="Sign in"
-            buttonStyle={parameters.styleButton}
-            titleStyle={parameters.buttonTitle}
-          />
+        <Button
+          title="Créer un compte"
+          buttonStyle={styles.createButton}
+          titleStyle={styles.createButtonTitle}
+        />
         </View>
       </View>
     </View>
@@ -93,5 +93,25 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '218c74',
+  },
+
+  createButton: {
+    backgroundColor: 'white',
+    alignContent: 'center',
+    justifyContent: 'center',
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: '#218c74',
+    height: 42,
+    paddingHorizontal: 20,
+  },
+
+  createButtonTitle: {
+    color: '#218c74',
+    fontSize: 16,
+    fontWeight: 'bold',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: -3,
   },
 });

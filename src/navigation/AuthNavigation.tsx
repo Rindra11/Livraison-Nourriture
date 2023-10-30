@@ -3,6 +3,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import SignUp from '../screens/authScreens/SignUp';
 import SignScreen from '../screens/authScreens/SignScreen';
 import {TransitionPresets} from '@react-navigation/stack';
+import Accueil from '../screens/Accueil';
 
 const Auth = createNativeStackNavigator();
 
@@ -26,6 +27,17 @@ export default function AuthStack() {
           ...TransitionPresets.RevealFromBottomAndroid
         }}
       />
+
+      <Auth.Screen
+        name="Accueil"
+        component={Accueil}
+        options={{
+          headerShown: false,
+          ...TransitionPresets.RevealFromBottomAndroid
+        }}
+      />
+
+      
     </Auth.Navigator>
   );
 }

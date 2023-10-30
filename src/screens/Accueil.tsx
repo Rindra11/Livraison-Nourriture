@@ -1,10 +1,11 @@
 import {View, Text, StyleSheet} from 'react-native'
 import React from 'react'
+import AccueilHeader from '../components/AccueilHeader'
 
 export default function Accueil() {
   return (
     <View style={styles.container}>
-        <Text>Bonjour à tous</Text>
+        <AccueilHeader />
     </View>
   )
 }
@@ -12,7 +13,5 @@ export default function Accueil() {
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        justifyContent:"center",
-        alignItems:"center"
     }
 })

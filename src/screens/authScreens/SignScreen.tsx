@@ -66,7 +66,7 @@ export default function SignScreen({navigation}) {
           title="Connexion"
           buttonStyle={parameters.styleButton}
           titleStyle={parameters.buttonTitle}
-          onPress={()=>{navigation.navigate('Accuei')}}
+          onPress={()=>{navigation.navigate('Accueil')}}
         />
       </View>
 

@@ -36,7 +36,6 @@ export default function AuthStack() {
           ...TransitionPresets.RevealFromBottomAndroid
         }}
       />
-
       
     </Auth.Navigator>
   );

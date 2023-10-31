@@ -4,7 +4,7 @@ import { colors, parameters } from '../global/styles';
 import { Icon, Badge } from 'react-native-elements';
 
 export default function AccueilHeader() {
-    
+
   return (
     <View style={styles.header}>
       <View style={{ alignItems: "center", justifyContent: "center", marginLeft: 15 }}>
@@ -16,11 +16,11 @@ export default function AccueilHeader() {
         />
       </View>
 
-      <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+      <View style={{ flex:1, alignItems: "center", justifyContent: "center" }}>
         <Text style={{ color: colors.cardbackground, fontSize: 25, fontWeight: 'bold' }}>E-Nourriture</Text>
       </View>
 
-      <View style={{ alignItems: "center", justifyContent: "center" }}>
+      <View style={{alignItems: "center", justifyContent: "center" }}>
         <Badge value={0} status="success">
           <Icon
             type='material-community'

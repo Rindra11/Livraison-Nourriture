@@ -19,8 +19,8 @@ export default function SignScreen({navigation}) {
       </View>
 
       <View style={{ alignItems: 'center', marginTop: 10 }}>
-        <Text style={styles.text1}>Please enter your email and password</Text>
-        <Text style={styles.text2}>or register with your account</Text>
+        <Text style={styles.text1}>Pour ce connecter veuillez remplire les formulaires</Text>
+        <Text style={styles.text2}>Se connecter avec autre compte?</Text>
       </View>
 
       <View style={{ marginTop: 20 }}>

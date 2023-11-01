@@ -4,7 +4,7 @@ import AccueilHeader from '../components/AccueilHeader'
 import { colors } from '../global/styles';
 import { Icon } from 'react-native-elements/dist/icons/Icon';
 import { ScrollView } from 'react-native';
-import { filterCategorie } from '../categories/categorie';
+import { filterCategorie, restaurantsData } from '../categories/categorie';
 import { ListItem } from 'react-native-elements';
 import { Image } from 'react-native-elements/dist/image/Image';
 
@@ -74,6 +74,14 @@ export default function Accueil() {
 
         <View style={{ ...styles.livraisonButton, backgroundColor: livraison ? colors.button : colors.grey4 }}>
           <Text style={styles.livraisonText}>Livraison disponible maintenants</Text>
+        </View>
+
+        <View>
+          <FlatList
+           style={{marginTop:10, marginBottom:10}}
+           horizontal={true}
+           data={restaurantsData}
+          />
         </View>
 
     </ScrollView>

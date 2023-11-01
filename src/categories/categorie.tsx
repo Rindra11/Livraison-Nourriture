@@ -11,9 +11,46 @@ export const filterCategorie = [
 ];
 
 
-export const restauratsData = [
-    (restaurantName:"Zomatel", farAway:"21.2",
-    businessAddress:"Anjoma, Fianarantsoa", images:"../assets/images/burger.jpg", collectTimes:5, foodType:"Burgers,...",
-    productData:[{name:"Misaontsika", price:20000Ar,image:"../assets/images/burger.jpg"},
-    {name:"Pates Matsiro", price:10000Ar,image:"../assets/images/image1.jpg"}],id:0),
-]
+export const restaurantsData = [
+  {
+    restaurantName: "Zomatel",
+    farAway: "21.2",
+    businessAddress: "Anjoma, Fianarantsoa",
+    images: "../assets/images/burger.jpg",
+    collectTimes: 5,
+    foodType: "Burgers,...",
+    productData: [
+      { name: "Misaontsika", price: 20000, image: "../assets/images/burger.jpg" },
+      { name: "Pates Matsiro", price: 10000, image: "../assets/images/image1.jpg" }
+    ],
+    id: 0
+  },
+
+   {
+    restaurantName: "Zomatel",
+    farAway: "21.2",
+    businessAddress: "Anjoma, Fianarantsoa",
+    images: "../assets/images/burger.jpg",
+    collectTimes: 5,
+    foodType: "Burgers,...",
+    productData: [
+      { name: "Misaontsika", price: 20000, image: "../assets/images/burger.jpg" },
+      { name: "Pates Matsiro", price: 10000, image: "../assets/images/image1.jpg" }
+    ],
+    id: 1
+  },
+
+   {
+    restaurantName: "Zomatel",
+    farAway: "21.2",
+    businessAddress: "Anjoma, Fianarantsoa",
+    images: "../assets/images/burger.jpg",
+    collectTimes: 5,
+    foodType: "Burgers,...",
+    productData: [
+      { name: "Misaontsika", price: 20000, image: "../assets/images/burger.jpg" },
+      { name: "Pates Matsiro", price: 10000, image: "../assets/images/image1.jpg" }
+    ],
+    id: 2
+  },
+];
